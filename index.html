@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Home</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header class="mainheader">
+        <h1>Quiz</h1>
+    </header>
+    <section class="quizbox">
+        <!-- Timer -->
+        <button id="btn" onclick="start()">Begin Quiz</button>
+        <div class="timerbox">Timer:&nbsp;<span id="count">75</span>&nbsp;sec.</div>
+        <!-- Quiz Questions -->
+        <div id="quiz" class="content"></div>
+        <h2 id="question" class="hidden"> Please answer the following question.</h2>
+        <div class="choice-container hidden" data-number="1">
+            <p class="choice-text">What is the 1st Letter of the alphabet?</p>
+            <div class="answer-container">
+                <div>A</div>
+                <div>Ay</div>
+                <div>Eh</div>
+                <div>Aye</div>
+            </div>
+        </div>
+        <div class="choice-container hidden" data-number="2"> 
+            <p class="choice-text" >Question 2 text</p>
+        </div>
+        <div class="choice-container hidden" data-number="3">
+            <p class="choice-text" >Question 3 text</p>
+        </div>
+        <div class="choice-container hidden" data-number="4">
+            <p class="choice-text" >Question 4 text</p>
+
+            <!-- <a id ="quiz-start" href="quiz">Take Quiz</a> -->
+            <!-- <a id = "highscore" href="highscores.html">High Scores</a> -->
+    </section>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
