@@ -14,29 +14,40 @@
         <h1>Quiz</h1>
     </header>
     <section class="quizbox">
+        <!-- <h3 id = "h3Question"> Please answer the following questions, when ready hit Begin Quiz.</h3> -->
         <!-- Timer -->
         <button id="btn" onclick="start()">Begin Quiz</button>
         <div class="timerbox">Timer:&nbsp;<span id="count">75</span>&nbsp;sec.</div>
         <!-- Quiz Questions -->
-        <div id="quiz" class="content"></div>
-        <h2 id="question" class="hidden"> Please answer the following question.</h2>
         <div class="choice-container hidden" data-number="1">
             <p class="choice-text">What is the 1st Letter of the alphabet?</p>
             <div class="answer-container">
-                <div>A</div>
-                <div>Ay</div>
-                <div>Eh</div>
-                <div>Aye</div>
+                <div class="CorrectAnswer" onclick="getQuestion2()">A</div>
+                <div class="IncorrectAnswer" onclick="getQuestion2()">Ay</div>
+                <div class="IncorrectAnswer" onclick="getQuestion2()">Eh</div>
+                <div class="IncorrectAnswer" onclick="getQuestion2()">Aye</div>
             </div>
         </div>
-        <div class="choice-container hidden" data-number="2"> 
-            <p class="choice-text" >Question 2 text</p>
+        <div class="choice-container hidden" data-number="2">
+            <p class="choice-text">What is the 2nd Letter of the alphabet?</p>
+            <div class="answer-container">
+                <div class="IncorrectAns2" onclick="getQuestion3()">Buh</div>
+                <div class="IncorrectAns2" onclick="getQuestion3()">Bee</div>
+                <div class="CorrectAns2" onclick="getQuestion3()">B</div>
+                <div class="IncorrectAns2" onclick="getQuestion3()">Be</div>
+            </div>
         </div>
         <div class="choice-container hidden" data-number="3">
-            <p class="choice-text" >Question 3 text</p>
-        </div>
-        <div class="choice-container hidden" data-number="4">
-            <p class="choice-text" >Question 4 text</p>
+            <p class="choice-text">What is the 3rd Letter of the alphabet?</p>
+            <div class="answer-container">
+                <div class="IncorrectAns3" onclick="saveHighScore()">Cee</div>
+                <div class="CorrectAns3" onclick="saveHighScore()">C</div>
+                <div class="IncorrectAns3" onclick="saveHighScore()">Sea</div>
+                <div class="IncorrectAns3" onclick="saveHighScore()">See</div>
+            </div>
+            <!-- <div class="choice-container hidden" data-number="4">
+            <p class="choice-text">Question 4 text</p> -->
+
 
             <!-- <a id ="quiz-start" href="quiz">Take Quiz</a> -->
             <!-- <a id = "highscore" href="highscores.html">High Scores</a> -->

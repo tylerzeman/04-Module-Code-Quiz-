@@ -30,8 +30,12 @@ h1 {
     padding: 25px;
     border-radius: 15px;
     background-color:black;
+    flex-direction: column;
 }
 
+/* #h3Question {
+    padding: 25px;
+} */
 .timerbox {
     margin: 20px;
     justify-content: center;
