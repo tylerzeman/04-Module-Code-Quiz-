@@ -6,7 +6,7 @@ var timerBoxEl = document.getElementById("count");
 
 var btn = document.querySelector("#startQuiz");
 
-var counter = 75;
+var counter = 60;
 
 var incorrectAnswer = document.querySelector('.incorrectAnswer');
 
