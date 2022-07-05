@@ -11,8 +11,8 @@ on questions and move on to the next till they are finished currently it ends on
 
 ![quizhome](assets/images/quizhome.png?raw=true "quizhome")
 
-![question1](assets/images/quizhome.png?raw=true "question1")
+![question1](assets/images/question1.png?raw=true "question1")
 
-![question2](assets/images/quizhome.png?raw=true "question2")
+![question2](assets/images/question2.png?raw=true "question2")
 
-![question3](assets/images/quizhome.png?raw=true "question3")
+![question3](assets/images/question3.png?raw=true "question3")
