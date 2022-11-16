@@ -1,17 +1,29 @@
 # 04-Module-Code-Quiz
 
-This week we were tasked with creating a Quiz with multiple choice questions.
+## Table of Contents
 
-# Website Link
+--[User Story](#User-Story)
 
-https://tylerzeman.github.io/04-Module-Code-Quiz-/
+--[Description](#Description)
 
-# Project Description
+--[Deployed Site](#Deployed-Site)
+
+--[Screenshots](#Screenshots)
+
+## User-Story
+
+As a Coding Bootcamp student I want to take a timed Quiz on Javascript fundamentals that stores high scores so that I can gauge my progress compared to my peers.
+
+## Description
 
 On the home page I have a button that starts a 60 second timer, and when time runs out it alerts the user when the the time runs out. The user is able to click
 on questions and move on to the next till they are finished currently it ends on question 3 and is unable to save High Scores with initials, looking into local storage.
 
-# Screenshots of Webpage
+## Deployed-Site
+
+https://tylerzeman.github.io/04-Module-Code-Quiz-/
+
+## Screenshots of Webpage
 
 ![quizhome](assets/images/quizhome.png?raw=true "quizhome")
 
